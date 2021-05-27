@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF942636265FC16C002C6493 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF942635265FC16C002C6493 /* AppDelegate.swift */; };
+		CF942638265FC16C002C6493 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF942637265FC16C002C6493 /* SceneDelegate.swift */; };
+		CF94263A265FC16C002C6493 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF942639265FC16C002C6493 /* ViewController.swift */; };
+		CF94263D265FC16C002C6493 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF94263B265FC16C002C6493 /* Main.storyboard */; };
+		CF94263F265FC171002C6493 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF94263E265FC171002C6493 /* Assets.xcassets */; };
+		CF942642265FC171002C6493 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF942640265FC171002C6493 /* LaunchScreen.storyboard */; };
+		CF94264D265FC171002C6493 /* FoodDeliveryAppNGFOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF94264C265FC171002C6493 /* FoodDeliveryAppNGFOTests.swift */; };
+		CF942658265FC171002C6493 /* FoodDeliveryAppNGFOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF942657265FC171002C6493 /* FoodDeliveryAppNGFOUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF942649265FC171002C6493 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF94262A265FC16C002C6493 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF942631265FC16C002C6493;
+			remoteInfo = FoodDeliveryAppNGFO;
+		};
+		CF942654265FC171002C6493 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF94262A265FC16C002C6493 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF942631265FC16C002C6493;
+			remoteInfo = FoodDeliveryAppNGFO;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF942632265FC16C002C6493 /* FoodDeliveryAppNGFO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDeliveryAppNGFO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF942635265FC16C002C6493 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF942637265FC16C002C6493 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CF942639265FC16C002C6493 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF94263C265FC16C002C6493 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF94263E265FC171002C6493 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF942641265FC171002C6493 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF942643265FC171002C6493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF942648265FC171002C6493 /* FoodDeliveryAppNGFOTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodDeliveryAppNGFOTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF94264C265FC171002C6493 /* FoodDeliveryAppNGFOTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDeliveryAppNGFOTests.swift; sourceTree = "<group>"; };
+		CF94264E265FC171002C6493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF942653265FC171002C6493 /* FoodDeliveryAppNGFOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodDeliveryAppNGFOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF942657265FC171002C6493 /* FoodDeliveryAppNGFOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDeliveryAppNGFOUITests.swift; sourceTree = "<group>"; };
+		CF942659265FC171002C6493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF94262F265FC16C002C6493 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF942645265FC171002C6493 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF942650265FC171002C6493 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF942629265FC16C002C6493 = {
+			isa = PBXGroup;
+			children = (
+				CF942634265FC16C002C6493 /* FoodDeliveryAppNGFO */,
+				CF94264B265FC171002C6493 /* FoodDeliveryAppNGFOTests */,
+				CF942656265FC171002C6493 /* FoodDeliveryAppNGFOUITests */,
+				CF942633265FC16C002C6493 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF942633265FC16C002C6493 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF942632265FC16C002C6493 /* FoodDeliveryAppNGFO.app */,
+				CF942648265FC171002C6493 /* FoodDeliveryAppNGFOTests.xctest */,
+				CF942653265FC171002C6493 /* FoodDeliveryAppNGFOUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF942634265FC16C002C6493 /* FoodDeliveryAppNGFO */ = {
+			isa = PBXGroup;
+			children = (
+				CF942635265FC16C002C6493 /* AppDelegate.swift */,
+				CF942637265FC16C002C6493 /* SceneDelegate.swift */,
+				CF942639265FC16C002C6493 /* ViewController.swift */,
+				CF94263B265FC16C002C6493 /* Main.storyboard */,
+				CF94263E265FC171002C6493 /* Assets.xcassets */,
+				CF942640265FC171002C6493 /* LaunchScreen.storyboard */,
+				CF942643265FC171002C6493 /* Info.plist */,
+			);
+			path = FoodDeliveryAppNGFO;
+			sourceTree = "<group>";
+		};
+		CF94264B265FC171002C6493 /* FoodDeliveryAppNGFOTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF94264C265FC171002C6493 /* FoodDeliveryAppNGFOTests.swift */,
+				CF94264E265FC171002C6493 /* Info.plist */,
+			);
+			path = FoodDeliveryAppNGFOTests;
+			sourceTree = "<group>";
+		};
+		CF942656265FC171002C6493 /* FoodDeliveryAppNGFOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF942657265FC171002C6493 /* FoodDeliveryAppNGFOUITests.swift */,
+				CF942659265FC171002C6493 /* Info.plist */,
+			);
+			path = FoodDeliveryAppNGFOUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF942631265FC16C002C6493 /* FoodDeliveryAppNGFO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF94265C265FC171002C6493 /* Build configuration list for PBXNativeTarget "FoodDeliveryAppNGFO" */;
+			buildPhases = (
+				CF94262E265FC16C002C6493 /* Sources */,
+				CF94262F265FC16C002C6493 /* Frameworks */,
+				CF942630265FC16C002C6493 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodDeliveryAppNGFO;
+			productName = FoodDeliveryAppNGFO;
+			productReference = CF942632265FC16C002C6493 /* FoodDeliveryAppNGFO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF942647265FC171002C6493 /* FoodDeliveryAppNGFOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF94265F265FC171002C6493 /* Build configuration list for PBXNativeTarget "FoodDeliveryAppNGFOTests" */;
+			buildPhases = (
+				CF942644265FC171002C6493 /* Sources */,
+				CF942645265FC171002C6493 /* Frameworks */,
+				CF942646265FC171002C6493 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF94264A265FC171002C6493 /* PBXTargetDependency */,
+			);
+			name = FoodDeliveryAppNGFOTests;
+			productName = FoodDeliveryAppNGFOTests;
+			productReference = CF942648265FC171002C6493 /* FoodDeliveryAppNGFOTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF942652265FC171002C6493 /* FoodDeliveryAppNGFOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF942662265FC171002C6493 /* Build configuration list for PBXNativeTarget "FoodDeliveryAppNGFOUITests" */;
+			buildPhases = (
+				CF94264F265FC171002C6493 /* Sources */,
+				CF942650265FC171002C6493 /* Frameworks */,
+				CF942651265FC171002C6493 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF942655265FC171002C6493 /* PBXTargetDependency */,
+			);
+			name = FoodDeliveryAppNGFOUITests;
+			productName = FoodDeliveryAppNGFOUITests;
+			productReference = CF942653265FC171002C6493 /* FoodDeliveryAppNGFOUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF94262A265FC16C002C6493 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CF942631265FC16C002C6493 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					CF942647265FC171002C6493 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CF942631265FC16C002C6493;
+					};
+					CF942652265FC171002C6493 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CF942631265FC16C002C6493;
+					};
+				};
+			};
+			buildConfigurationList = CF94262D265FC16C002C6493 /* Build configuration list for PBXProject "FoodDeliveryAppNGFO" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF942629265FC16C002C6493;
+			productRefGroup = CF942633265FC16C002C6493 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF942631265FC16C002C6493 /* FoodDeliveryAppNGFO */,
+				CF942647265FC171002C6493 /* FoodDeliveryAppNGFOTests */,
+				CF942652265FC171002C6493 /* FoodDeliveryAppNGFOUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF942630265FC16C002C6493 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF942642265FC171002C6493 /* LaunchScreen.storyboard in Resources */,
+				CF94263F265FC171002C6493 /* Assets.xcassets in Resources */,
+				CF94263D265FC16C002C6493 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF942646265FC171002C6493 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF942651265FC171002C6493 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF94262E265FC16C002C6493 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF94263A265FC16C002C6493 /* ViewController.swift in Sources */,
+				CF942636265FC16C002C6493 /* AppDelegate.swift in Sources */,
+				CF942638265FC16C002C6493 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF942644265FC171002C6493 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF94264D265FC171002C6493 /* FoodDeliveryAppNGFOTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF94264F265FC171002C6493 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF942658265FC171002C6493 /* FoodDeliveryAppNGFOUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF94264A265FC171002C6493 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF942631265FC16C002C6493 /* FoodDeliveryAppNGFO */;
+			targetProxy = CF942649265FC171002C6493 /* PBXContainerItemProxy */;
+		};
+		CF942655265FC171002C6493 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF942631265FC16C002C6493 /* FoodDeliveryAppNGFO */;
+			targetProxy = CF942654265FC171002C6493 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF94263B265FC16C002C6493 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF94263C265FC16C002C6493 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF942640265FC171002C6493 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF942641265FC171002C6493 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF94265A265FC171002C6493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF94265B265FC171002C6493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF94265D265FC171002C6493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodDeliveryAppNGFO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.FoodDeliveryAppNGFO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF94265E265FC171002C6493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodDeliveryAppNGFO/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.FoodDeliveryAppNGFO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF942660265FC171002C6493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodDeliveryAppNGFOTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.FoodDeliveryAppNGFOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodDeliveryAppNGFO.app/FoodDeliveryAppNGFO";
+			};
+			name = Debug;
+		};
+		CF942661265FC171002C6493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodDeliveryAppNGFOTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.FoodDeliveryAppNGFOTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodDeliveryAppNGFO.app/FoodDeliveryAppNGFO";
+			};
+			name = Release;
+		};
+		CF942663265FC171002C6493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodDeliveryAppNGFOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.FoodDeliveryAppNGFOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodDeliveryAppNGFO;
+			};
+			name = Debug;
+		};
+		CF942664265FC171002C6493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FoodDeliveryAppNGFOUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.FoodDeliveryAppNGFOUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FoodDeliveryAppNGFO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF94262D265FC16C002C6493 /* Build configuration list for PBXProject "FoodDeliveryAppNGFO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF94265A265FC171002C6493 /* Debug */,
+				CF94265B265FC171002C6493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF94265C265FC171002C6493 /* Build configuration list for PBXNativeTarget "FoodDeliveryAppNGFO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF94265D265FC171002C6493 /* Debug */,
+				CF94265E265FC171002C6493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF94265F265FC171002C6493 /* Build configuration list for PBXNativeTarget "FoodDeliveryAppNGFOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF942660265FC171002C6493 /* Debug */,
+				CF942661265FC171002C6493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF942662265FC171002C6493 /* Build configuration list for PBXNativeTarget "FoodDeliveryAppNGFOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF942663265FC171002C6493 /* Debug */,
+				CF942664265FC171002C6493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF94262A265FC16C002C6493 /* Project object */;
+}
