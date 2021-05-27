@@ -1,0 +1,922 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GoogleMaps;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0EC3D9467E227DB8D52AC899A32CAAFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		31053B81DB6E94E8A97D0DC88E0A78F1 /* Pods-FoodDeliveryAppNGFO-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3958D48EB0721E451784591309F51AD /* Pods-FoodDeliveryAppNGFO-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A6A431D00D08E5A47625E925371A9E1 /* Pods-FoodDeliveryAppNGFO-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1C97F8F2188CEB9FFEB4E267100FDF1 /* Pods-FoodDeliveryAppNGFO-dummy.m */; };
+		5DF4C8A5540C71804E6605EF512D0AED /* Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0B2ACE0D24083BB1E3F5D7535DD3264 /* Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		660C8D673139151001CE8C67D0DC13A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6B0C08D81E6A59B72CEE131BEBE8E2F1 /* Pods-FoodDeliveryAppNGFOTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 468A3AE1530C5B81CB5D58AE9429D0F5 /* Pods-FoodDeliveryAppNGFOTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		843EB2D7658B4C22FB6E4C3C4C4D1031 /* Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81FEA176A1ED1494B716F1998093F772 /* Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests-dummy.m */; };
+		9B668B030E964FE39D8CDACE3F0BDDB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E735346B5A80BDA758DD00D728032E54 /* Pods-FoodDeliveryAppNGFOTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C65821CB80760159144A641198E00BC /* Pods-FoodDeliveryAppNGFOTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DD84B801703D593BFE41BAB042A5859 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		3ED86D3A54AD0A5A153ACA155A9E49DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2F8B158993BF6A34F9A9B3EA9B0E6EE;
+			remoteInfo = "Pods-FoodDeliveryAppNGFO";
+		};
+		8740EE90D0B3C09431D6B74B8D65BAEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01AF48CF5646ADAB5D7324A8169AFF03 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		0E5BAD1C6D58B03D75EB0549C2444C47 /* Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1CF5F9E37D6B7A162FD8F95BD2A517B9 /* Pods-FoodDeliveryAppNGFO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodDeliveryAppNGFO.release.xcconfig"; sourceTree = "<group>"; };
+		1E93CC075A67490CD219272491A09540 /* Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests-resources.sh"; sourceTree = "<group>"; };
+		2AEDE81FAF555408E3FB5F68A8FAC8EA /* Pods_FoodDeliveryAppNGFOTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FoodDeliveryAppNGFOTests.framework; path = "Pods-FoodDeliveryAppNGFOTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4047DDB7D34D439E6396A214D89A2469 /* Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		468A3AE1530C5B81CB5D58AE9429D0F5 /* Pods-FoodDeliveryAppNGFOTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoodDeliveryAppNGFOTests-umbrella.h"; sourceTree = "<group>"; };
+		4A7A8379FC73C41E138992B5E2A54F31 /* Pods-FoodDeliveryAppNGFOTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodDeliveryAppNGFOTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4BAD5E09011E57B4BE38418500F633FC /* Pods-FoodDeliveryAppNGFOTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodDeliveryAppNGFOTests.release.xcconfig"; sourceTree = "<group>"; };
+		4D535BD7E7B6D2626AB49CF970928D39 /* Pods-FoodDeliveryAppNGFO-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodDeliveryAppNGFO-Info.plist"; sourceTree = "<group>"; };
+		5F7A0862BCAC70F43A51BC2D9CCC83F9 /* Pods-FoodDeliveryAppNGFO-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoodDeliveryAppNGFO-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6583A981D61F001B0FD27BC30271F61D /* Pods-FoodDeliveryAppNGFOTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodDeliveryAppNGFOTests-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76F22F6EC8E162647447B12976A598CA /* Pods-FoodDeliveryAppNGFO-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodDeliveryAppNGFO-acknowledgements.plist"; sourceTree = "<group>"; };
+		7C65821CB80760159144A641198E00BC /* Pods-FoodDeliveryAppNGFOTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoodDeliveryAppNGFOTests-dummy.m"; sourceTree = "<group>"; };
+		81FEA176A1ED1494B716F1998093F772 /* Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests-dummy.m"; sourceTree = "<group>"; };
+		8993254FB99D75C8AC8DB5C162C07AEE /* Pods-FoodDeliveryAppNGFO.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FoodDeliveryAppNGFO.modulemap"; sourceTree = "<group>"; };
+		8A3B42B176E20DD84762E6015E61C2AF /* Pods-FoodDeliveryAppNGFO-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FoodDeliveryAppNGFO-resources.sh"; sourceTree = "<group>"; };
+		8C3AB742DCF0EA217BAD9F953CE64429 /* Pods_FoodDeliveryAppNGFO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FoodDeliveryAppNGFO.framework; path = "Pods-FoodDeliveryAppNGFO.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91399497B773A25E9C910F2327EFB63D /* Pods-FoodDeliveryAppNGFOTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FoodDeliveryAppNGFOTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		98114EB81BEB5F2D2F652F36A2D8AD43 /* Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A30DCE2FD32B74AF82F71137E15880B9 /* Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A9B49703E33BA7EB4D5C663DBE5E9943 /* Pods-FoodDeliveryAppNGFOTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FoodDeliveryAppNGFOTests.modulemap"; sourceTree = "<group>"; };
+		AABE3D21F0BE384435A5D7C08A8FD5BB /* GoogleMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.debug.xcconfig; sourceTree = "<group>"; };
+		AD36F8F57B5C3106CF47BEE785B2622B /* Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B3958D48EB0721E451784591309F51AD /* Pods-FoodDeliveryAppNGFO-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoodDeliveryAppNGFO-umbrella.h"; sourceTree = "<group>"; };
+		BDFB5F8A5B4C17610152B588084BC902 /* Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests.modulemap"; sourceTree = "<group>"; };
+		C1C97F8F2188CEB9FFEB4E267100FDF1 /* Pods-FoodDeliveryAppNGFO-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FoodDeliveryAppNGFO-dummy.m"; sourceTree = "<group>"; };
+		C3D0978B919EA2ECF2A2F8466075BB51 /* GoogleMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.release.xcconfig; sourceTree = "<group>"; };
+		CCAF84BDED2FB6E96E950E18E0742136 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		D4ACA97902F2611A3C0FDAA56CB847AB /* Pods-FoodDeliveryAppNGFOTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FoodDeliveryAppNGFOTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E2309F84CDF17FF87E66D6CDB6B517AB /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		E2F4E7C722407F81715B67A5F9EC4FAD /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		EFF088843D1479CBC696456641479651 /* Pods-FoodDeliveryAppNGFO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FoodDeliveryAppNGFO.debug.xcconfig"; sourceTree = "<group>"; };
+		F0B2ACE0D24083BB1E3F5D7535DD3264 /* Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests-umbrella.h"; sourceTree = "<group>"; };
+		FE3ACF9131442797B6E4377325E24D99 /* Pods_FoodDeliveryAppNGFO_FoodDeliveryAppNGFOUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FoodDeliveryAppNGFO_FoodDeliveryAppNGFOUITests.framework; path = "Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F8545607A294368B8FA7C58100ED9CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660C8D673139151001CE8C67D0DC13A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FF3C4839EEA0D193102E6F17B188FEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC3D9467E227DB8D52AC899A32CAAFE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E20AF38A821969ADB4D15C1D738F64AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B668B030E964FE39D8CDACE3F0BDDB0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DB59E63DA16334F2EA1A9725345658E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				687BDB4D4740039F36D5C116CC168801 /* Pods-FoodDeliveryAppNGFO */,
+				CB973DB3095FFA596807C2EBED18A3EF /* Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests */,
+				B05D216BAA06D6140FF3D54C881337CB /* Pods-FoodDeliveryAppNGFOTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1AEA1CF3E36FF8113F6FFD7526BE5F98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCAF84BDED2FB6E96E950E18E0742136 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		23258B9441300E23C80256BEEFD1F964 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				5FCC553E82707BA26B1F6EDC00161B0D /* Base */,
+				387015716759109261086A8C0CA736F5 /* Maps */,
+				9601491F11C5653D98D1EB5DF2155DFE /* Support Files */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		387015716759109261086A8C0CA736F5 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				F9621E38CA93CD5E47C3F28B4F0AF3DD /* Frameworks */,
+				E48211C21EA696EBC32B31525F5FFA67 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5FCC553E82707BA26B1F6EDC00161B0D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				1AEA1CF3E36FF8113F6FFD7526BE5F98 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		687BDB4D4740039F36D5C116CC168801 /* Pods-FoodDeliveryAppNGFO */ = {
+			isa = PBXGroup;
+			children = (
+				8993254FB99D75C8AC8DB5C162C07AEE /* Pods-FoodDeliveryAppNGFO.modulemap */,
+				5F7A0862BCAC70F43A51BC2D9CCC83F9 /* Pods-FoodDeliveryAppNGFO-acknowledgements.markdown */,
+				76F22F6EC8E162647447B12976A598CA /* Pods-FoodDeliveryAppNGFO-acknowledgements.plist */,
+				C1C97F8F2188CEB9FFEB4E267100FDF1 /* Pods-FoodDeliveryAppNGFO-dummy.m */,
+				4D535BD7E7B6D2626AB49CF970928D39 /* Pods-FoodDeliveryAppNGFO-Info.plist */,
+				8A3B42B176E20DD84762E6015E61C2AF /* Pods-FoodDeliveryAppNGFO-resources.sh */,
+				B3958D48EB0721E451784591309F51AD /* Pods-FoodDeliveryAppNGFO-umbrella.h */,
+				EFF088843D1479CBC696456641479651 /* Pods-FoodDeliveryAppNGFO.debug.xcconfig */,
+				1CF5F9E37D6B7A162FD8F95BD2A517B9 /* Pods-FoodDeliveryAppNGFO.release.xcconfig */,
+			);
+			name = "Pods-FoodDeliveryAppNGFO";
+			path = "Target Support Files/Pods-FoodDeliveryAppNGFO";
+			sourceTree = "<group>";
+		};
+		9601491F11C5653D98D1EB5DF2155DFE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AABE3D21F0BE384435A5D7C08A8FD5BB /* GoogleMaps.debug.xcconfig */,
+				C3D0978B919EA2ECF2A2F8466075BB51 /* GoogleMaps.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleMaps";
+			sourceTree = "<group>";
+		};
+		B05D216BAA06D6140FF3D54C881337CB /* Pods-FoodDeliveryAppNGFOTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9B49703E33BA7EB4D5C663DBE5E9943 /* Pods-FoodDeliveryAppNGFOTests.modulemap */,
+				91399497B773A25E9C910F2327EFB63D /* Pods-FoodDeliveryAppNGFOTests-acknowledgements.markdown */,
+				D4ACA97902F2611A3C0FDAA56CB847AB /* Pods-FoodDeliveryAppNGFOTests-acknowledgements.plist */,
+				7C65821CB80760159144A641198E00BC /* Pods-FoodDeliveryAppNGFOTests-dummy.m */,
+				6583A981D61F001B0FD27BC30271F61D /* Pods-FoodDeliveryAppNGFOTests-Info.plist */,
+				468A3AE1530C5B81CB5D58AE9429D0F5 /* Pods-FoodDeliveryAppNGFOTests-umbrella.h */,
+				4A7A8379FC73C41E138992B5E2A54F31 /* Pods-FoodDeliveryAppNGFOTests.debug.xcconfig */,
+				4BAD5E09011E57B4BE38418500F633FC /* Pods-FoodDeliveryAppNGFOTests.release.xcconfig */,
+			);
+			name = "Pods-FoodDeliveryAppNGFOTests";
+			path = "Target Support Files/Pods-FoodDeliveryAppNGFOTests";
+			sourceTree = "<group>";
+		};
+		B27C406075DBE79F2DAE83CB82CA770C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C3AB742DCF0EA217BAD9F953CE64429 /* Pods_FoodDeliveryAppNGFO.framework */,
+				FE3ACF9131442797B6E4377325E24D99 /* Pods_FoodDeliveryAppNGFO_FoodDeliveryAppNGFOUITests.framework */,
+				2AEDE81FAF555408E3FB5F68A8FAC8EA /* Pods_FoodDeliveryAppNGFOTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB973DB3095FFA596807C2EBED18A3EF /* Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDFB5F8A5B4C17610152B588084BC902 /* Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests.modulemap */,
+				4047DDB7D34D439E6396A214D89A2469 /* Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests-acknowledgements.markdown */,
+				0E5BAD1C6D58B03D75EB0549C2444C47 /* Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests-acknowledgements.plist */,
+				81FEA176A1ED1494B716F1998093F772 /* Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests-dummy.m */,
+				98114EB81BEB5F2D2F652F36A2D8AD43 /* Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests-Info.plist */,
+				1E93CC075A67490CD219272491A09540 /* Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests-resources.sh */,
+				F0B2ACE0D24083BB1E3F5D7535DD3264 /* Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests-umbrella.h */,
+				AD36F8F57B5C3106CF47BEE785B2622B /* Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests.debug.xcconfig */,
+				A30DCE2FD32B74AF82F71137E15880B9 /* Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests.release.xcconfig */,
+			);
+			name = "Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests";
+			path = "Target Support Files/Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				DF3634087891871FA7B65CC4A8E6DB71 /* Pods */,
+				B27C406075DBE79F2DAE83CB82CA770C /* Products */,
+				0DB59E63DA16334F2EA1A9725345658E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF3634087891871FA7B65CC4A8E6DB71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23258B9441300E23C80256BEEFD1F964 /* GoogleMaps */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E48211C21EA696EBC32B31525F5FFA67 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E2309F84CDF17FF87E66D6CDB6B517AB /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F9621E38CA93CD5E47C3F28B4F0AF3DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01AF48CF5646ADAB5D7324A8169AFF03 /* GoogleMaps.framework */,
+				E2F4E7C722407F81715B67A5F9EC4FAD /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		048DDDB5DA65E398C0A0144428B94211 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B0C08D81E6A59B72CEE131BEBE8E2F1 /* Pods-FoodDeliveryAppNGFOTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB18179B2D766F44DAB3E0A138981BEC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DF4C8A5540C71804E6605EF512D0AED /* Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4E4C6ED3E52C61A09ABAF1054E5884B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31053B81DB6E94E8A97D0DC88E0A78F1 /* Pods-FoodDeliveryAppNGFO-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C9E5F04C13B4B7B25CC742567082C165 /* Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62951A7BEF035916C760C9EA4E8082F9 /* Build configuration list for PBXNativeTarget "Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests" */;
+			buildPhases = (
+				AB18179B2D766F44DAB3E0A138981BEC /* Headers */,
+				BA72D69BAF78FEB6017470B8A18C35D0 /* Sources */,
+				E20AF38A821969ADB4D15C1D738F64AC /* Frameworks */,
+				9C439326BF264C72016D96C8EBE554FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C254697B6B64CD89C26449586EF7F2E4 /* PBXTargetDependency */,
+			);
+			name = "Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests";
+			productName = "Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests";
+			productReference = FE3ACF9131442797B6E4377325E24D99 /* Pods_FoodDeliveryAppNGFO_FoodDeliveryAppNGFOUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F2F8B158993BF6A34F9A9B3EA9B0E6EE /* Pods-FoodDeliveryAppNGFO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E59336149DB9EE41FC648F70AA57666F /* Build configuration list for PBXNativeTarget "Pods-FoodDeliveryAppNGFO" */;
+			buildPhases = (
+				B4E4C6ED3E52C61A09ABAF1054E5884B /* Headers */,
+				A68137E438E4C3D7F61B2171A19EA455 /* Sources */,
+				3FF3C4839EEA0D193102E6F17B188FEF /* Frameworks */,
+				887ADCBAC801FC949720E0F80A0508C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54F1B678B989F7636646481A6B9EF2AF /* PBXTargetDependency */,
+			);
+			name = "Pods-FoodDeliveryAppNGFO";
+			productName = "Pods-FoodDeliveryAppNGFO";
+			productReference = 8C3AB742DCF0EA217BAD9F953CE64429 /* Pods_FoodDeliveryAppNGFO.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F844A1D909D00E0066E76E5C97883F9C /* Pods-FoodDeliveryAppNGFOTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C605E99A1C05ACF06BD807418B1EDCC4 /* Build configuration list for PBXNativeTarget "Pods-FoodDeliveryAppNGFOTests" */;
+			buildPhases = (
+				048DDDB5DA65E398C0A0144428B94211 /* Headers */,
+				7D8B6AC4836DB11F95E49012A22B6A83 /* Sources */,
+				3F8545607A294368B8FA7C58100ED9CD /* Frameworks */,
+				663E816725B6A02071B34511DF514BDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B2DC0E9D6771964F5DDA8545158DE05 /* PBXTargetDependency */,
+			);
+			name = "Pods-FoodDeliveryAppNGFOTests";
+			productName = "Pods-FoodDeliveryAppNGFOTests";
+			productReference = 2AEDE81FAF555408E3FB5F68A8FAC8EA /* Pods_FoodDeliveryAppNGFOTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B27C406075DBE79F2DAE83CB82CA770C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */,
+				F2F8B158993BF6A34F9A9B3EA9B0E6EE /* Pods-FoodDeliveryAppNGFO */,
+				C9E5F04C13B4B7B25CC742567082C165 /* Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests */,
+				F844A1D909D00E0066E76E5C97883F9C /* Pods-FoodDeliveryAppNGFOTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		663E816725B6A02071B34511DF514BDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		887ADCBAC801FC949720E0F80A0508C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C439326BF264C72016D96C8EBE554FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D8B6AC4836DB11F95E49012A22B6A83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E735346B5A80BDA758DD00D728032E54 /* Pods-FoodDeliveryAppNGFOTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A68137E438E4C3D7F61B2171A19EA455 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6A431D00D08E5A47625E925371A9E1 /* Pods-FoodDeliveryAppNGFO-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA72D69BAF78FEB6017470B8A18C35D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843EB2D7658B4C22FB6E4C3C4C4D1031 /* Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54F1B678B989F7636646481A6B9EF2AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = 0DD84B801703D593BFE41BAB042A5859 /* PBXContainerItemProxy */;
+		};
+		8B2DC0E9D6771964F5DDA8545158DE05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FoodDeliveryAppNGFO";
+			target = F2F8B158993BF6A34F9A9B3EA9B0E6EE /* Pods-FoodDeliveryAppNGFO */;
+			targetProxy = 3ED86D3A54AD0A5A153ACA155A9E49DB /* PBXContainerItemProxy */;
+		};
+		C254697B6B64CD89C26449586EF7F2E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = 8740EE90D0B3C09431D6B74B8D65BAEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2347E6E7E551D7222942CAF2206B1EAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFF088843D1479CBC696456641479651 /* Pods-FoodDeliveryAppNGFO.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoodDeliveryAppNGFO/Pods-FoodDeliveryAppNGFO-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoodDeliveryAppNGFO/Pods-FoodDeliveryAppNGFO.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		402780758D7BED254EC54A117F510E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A7A8379FC73C41E138992B5E2A54F31 /* Pods-FoodDeliveryAppNGFOTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoodDeliveryAppNGFOTests/Pods-FoodDeliveryAppNGFOTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoodDeliveryAppNGFOTests/Pods-FoodDeliveryAppNGFOTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5834AEB702FC0743E58BBE60D611434A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AABE3D21F0BE384435A5D7C08A8FD5BB /* GoogleMaps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67B107ED17C6C18DC4B8B4D3356E049A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3D0978B919EA2ECF2A2F8466075BB51 /* GoogleMaps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A00846473DF8AEAC2C48894930D5D84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CF5F9E37D6B7A162FD8F95BD2A517B9 /* Pods-FoodDeliveryAppNGFO.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoodDeliveryAppNGFO/Pods-FoodDeliveryAppNGFO-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoodDeliveryAppNGFO/Pods-FoodDeliveryAppNGFO.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		71243899B61152433AAE34EE86456EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		80B238418F9E0584D72ADD4994B4CFBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A30DCE2FD32B74AF82F71137E15880B9 /* Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests/Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests/Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B332547D819D9336A5372E5B00BCCBE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD36F8F57B5C3106CF47BEE785B2622B /* Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests/Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests/Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C1A24F1D0DE11054AEFD370F950BE603 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BAD5E09011E57B4BE38418500F633FC /* Pods-FoodDeliveryAppNGFOTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FoodDeliveryAppNGFOTests/Pods-FoodDeliveryAppNGFOTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FoodDeliveryAppNGFOTests/Pods-FoodDeliveryAppNGFOTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5834AEB702FC0743E58BBE60D611434A /* Debug */,
+				67B107ED17C6C18DC4B8B4D3356E049A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D70EEEA0A456E14F7338A7F342964E /* Debug */,
+				71243899B61152433AAE34EE86456EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62951A7BEF035916C760C9EA4E8082F9 /* Build configuration list for PBXNativeTarget "Pods-FoodDeliveryAppNGFO-FoodDeliveryAppNGFOUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B332547D819D9336A5372E5B00BCCBE8 /* Debug */,
+				80B238418F9E0584D72ADD4994B4CFBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C605E99A1C05ACF06BD807418B1EDCC4 /* Build configuration list for PBXNativeTarget "Pods-FoodDeliveryAppNGFOTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				402780758D7BED254EC54A117F510E81 /* Debug */,
+				C1A24F1D0DE11054AEFD370F950BE603 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E59336149DB9EE41FC648F70AA57666F /* Build configuration list for PBXNativeTarget "Pods-FoodDeliveryAppNGFO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2347E6E7E551D7222942CAF2206B1EAE /* Debug */,
+				6A00846473DF8AEAC2C48894930D5D84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
